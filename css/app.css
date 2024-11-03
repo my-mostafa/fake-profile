@@ -1,0 +1,74 @@
+
+@font-face {
+    font-family: "TTNorms Light";  
+    src: url("../fonts/TTNorms-Light.otf") format("openType");
+    }
+    
+    @font-face {
+    font-family: "TTNorms Medium";  
+    src: url("../fonts/TTNorms-Medium.otf") format("openType");
+    }
+    
+    @font-face {
+    font-family: "TTNorms Regular";  
+    src: url("../fonts/TTNorms-Regular.otf") format("openType");
+    }
+    
+
+
+
+button {
+    margin: 100px auto;
+    display: block;
+}
+
+body {
+    background-color:darkgray;
+}
+
+.boxall {
+    width: 1000px;
+    height: 300px;
+    margin: 50px auto;
+    display: none;
+
+}
+
+.box {
+    width: 830px ;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+img {
+    width: 150px;
+    height: 170px;
+
+}
+
+.fullnamebox {
+    display: flex;
+    gap:150px;
+}
+.locationbox {
+    display: flex;
+    gap:150px;
+}
+.conactionbox {
+    display: flex;
+    gap:150px;
+}
+
+.sizebox {
+    min-width: 300px;
+}
+
+label{
+    font-family: "TTNorms Medium";
+    font-size: 18px;
+}
+span {
+    font-family: "TTNorms Light";
+    font-size: 18px;
+}
